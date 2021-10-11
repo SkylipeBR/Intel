@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* config Global */
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Rubik', sans-serif;
+}
+
+/* Menu / nav */
+
+nav
+{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 10vh;
+    padding: 0px 30px 0px 0px;
+    border: 1px solid #444;
+}
+ #logo
+{
+   height: 100%;
+}
+
+
+.nav-list
+{
+    display: flex;
+    justify-self: flex-end;
+ 
+}
+
+.nav-list li
+{
+    padding: 25px;
+    list-style: none;
+}
+
+.nav-list li a
+{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #188FCD;
+}
+
+.nav-list-two
+{
+    display: flex;
+}
+
+.nav-list-two li
+{
+    list-style: none;
+    margin-left: 20px;
+}
+
+.nav-list-two li a
+{
+    font-size: 0.8em;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 200;
+    color: #188FCD;
+}
+
+#sub-menu
+{
+    padding: 5px;
+}
+
+/* Container 1 */
+
+.container-one
+{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 60vh;
+    background: url(../IMG/banner.jpg) no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+
+.container-one-text
+{
+    margin: 0px 50px 0px 0px;
+    padding: 50px 100px 50px 50px;
+    color: #fff;
+    background: #548FAD;
+}
+
+.container-one-text h1
+{
+    font-weight: 300;
+    font-size: 2.3em;
+    margin: 0px 0px 10px 0px;
+}
+
+.nav-page
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+.nav-page li
+{
+    list-style: none;
+    padding: 20px 30px;
+}
+
+
+.nav-page li a
+{
+    text-decoration: none;
+    color: #000;
+}
+
+.hitory-clients
+{
+    position: relative;
+    padding: 50px;
+}
+
+.hitory-clients h1
+{
+    text-align: center;
+    padding: 50px 0px 40px;
+    font-weight: 200;
+    color: #188FCD;
+}
+
+.articles-clients
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.articles-clients a, h2
+{
+    text-decoration: none;
+    color: #188FCD;
+    font-weight: 400;
+}
+
+
+.articles-clients article
+{
+    width: 400px;
+    padding: 50px;
+}
+
+.articles-clients article img
+{
+    width: 300px;
+}
